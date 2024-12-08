@@ -1,4 +1,4 @@
-import { Button } from "@mui/material";
+import { Button, IconButton } from "@mui/material";
 import React from "react";
 import "./button.style.css";
 import DeleteOutlineSharpIcon from "@mui/icons-material/DeleteOutlineSharp";
@@ -49,6 +49,9 @@ const CustomButton = () => {
           variant="outlined"
           color="error"
           startIcon={<DeleteOutlineSharpIcon />}
+          onClick={() => {
+            alert("Deleted Successfully");
+          }}
         >
           Delete Product
         </Button>
@@ -59,6 +62,15 @@ const CustomButton = () => {
         >
           Edit Product
         </Button>
+      </section>
+      <section>
+        <h3>Icon button </h3>
+        <IconButton sx={{ color: "red" }}>
+          <DeleteOutlineSharpIcon />
+        </IconButton>
+        <IconButton color="success">
+          <EditOutlinedIcon />
+        </IconButton>
       </section>
     </div>
   );
