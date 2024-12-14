@@ -1,0 +1,28 @@
+.body {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2 rem;
+}
+
+.card {
+  width: 400px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  box-shadow: rgb(62, 143, 214) 3px 3px 6px 0px inset,
+    rgba(62, 143, 214, 0.452) -3px -3px 6px 1px inset;
+}
+
+.image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.button {
+  display: flex;
+  gap: 10px;
+  color: white;
+  align-items: end;
+}
