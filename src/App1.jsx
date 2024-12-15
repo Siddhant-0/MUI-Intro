@@ -1,10 +1,10 @@
 import React from "react";
-import CustomButton from "./components/Button/CustomButton";
+import CustomCard from "./components/card/CustomCard";
 
 const App = () => {
   return (
     <div>
-      <CustomButton />
+      <CustomCard />
     </div>
   );
 };
