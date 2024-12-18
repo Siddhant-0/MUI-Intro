@@ -15,6 +15,10 @@ const Actors = () => {
       id: 3,
       name: "Biraj Bhatta",
     },
+    {
+      id: 4,
+      name: "Shubham Man Singh",
+    },
   ]);
   return (
     <Box>
