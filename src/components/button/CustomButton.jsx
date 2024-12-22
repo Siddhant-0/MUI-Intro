@@ -11,7 +11,7 @@ const CustomButton = () => {
         <h3>Button Variant</h3>
         <Button variant="text">Text</Button>
         <Button variant="contained">Click Me</Button>
-        <Button variant="outline">Outlined</Button>
+        <Button variant="outlined">Outlined</Button>
       </section>
 
       <section id="colour-section" className="button-section">

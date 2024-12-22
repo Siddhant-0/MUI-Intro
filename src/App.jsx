@@ -10,13 +10,13 @@ import Actors from "./components/counter/Actors";
 const App = () => {
   return (
     <div>
-      {/* <CustomButton /> */}
+      <CustomButton />
       {/* <CustomTypography /> */}
       {/* <Counter /> */}
       {/* <Person /> */}
       {/* <Laptop /> */}
       {/* <Animal /> */}
-      <Actors />
+      {/* <Actors /> */}
     </div>
   );
 };
